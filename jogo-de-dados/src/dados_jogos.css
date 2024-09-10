@@ -1,14 +1,30 @@
+/* dados_jogos.css */
 body {
-    background-color: #f0f0f0; /* Cor de fundo */
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
   }
   
   .dados-jogos {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #dacbcb;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagem-header {
+    width: 250px; 
+    height: 125px; 
+    margin-bottom: 20px;
   }
   
   .dados-jogos h1 {
-    color: #333;
+    color: #251b1b;
   }
   
   .dados-jogos .dice {
@@ -21,6 +37,10 @@ body {
     font-size: 1em;
     margin-top: 20px;
     cursor: pointer;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
   }
   
   .dados-jogos p {

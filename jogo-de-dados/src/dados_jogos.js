@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './dados_jogos.css';
+import imagemHeader from './imagemcomdados2.png';
 
 const DadosJogos = () => {
   const [dice1, setDice1] = useState(1);
@@ -22,6 +23,9 @@ const DadosJogos = () => {
 
   return (
     <div className="dados-jogos">
+      <header>
+        <img src={imagemHeader} alt="Header" className="imagem-header" />
+      </header>
       <h1>Jogo de Dados</h1>
       <div>
         <span className="dice">Dado 1: {dice1}</span>
