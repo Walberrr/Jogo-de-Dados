@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+  }
+  
+  .dados-jogos {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dados-jogos h1 {
+    color: #333;
+  }
+  
+  .dados-jogos .dice {
+    font-size: 2em;
+    margin: 10px;
+  }
+  
+  .dados-jogos button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .dados-jogos p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
